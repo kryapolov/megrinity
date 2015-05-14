@@ -1,0 +1,26 @@
+{
+    "name": "megrinity",
+    "type": "library",
+    "description": "heterogeneous migration tools",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Konstantin Ryapolov",
+            "email": "kryapolov@yandex.ru",
+            "homepage": "http://planeric.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": 						">=5.4.0",
+        "mtools/objectpoll": "dev-master",
+        "mtools/executionunit": "dev-dev",
+        "mtools/transportbox": "0.0.2"
+    },
+    "autoload": {
+        "psr-0": {"megrinity": "lib/"}
+    }
+}
+
+
+
